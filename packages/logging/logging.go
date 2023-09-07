@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/attachai/core/packages/setting"
-	"github.com/attachai/core/utils"
+	"github.com/attachai/go-core/packages/setting"
+	"github.com/attachai/go-core/utils"
 	"github.com/sirupsen/logrus"
 )
 

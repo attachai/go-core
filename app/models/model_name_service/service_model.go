@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"reflect"
 
-	modelCtrl "github.com/attachai/core/app/models/model_name_db/db/controllers"
-	"github.com/attachai/core/app/structs"
+	modelCtrl "github.com/attachai/go-core/app/models/model_name_db/db/controllers"
+	"github.com/attachai/go-core/app/structs"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

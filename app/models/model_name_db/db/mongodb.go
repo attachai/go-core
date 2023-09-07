@@ -3,8 +3,8 @@ package db
 import (
 	"context"
 
-	"github.com/attachai/core/app/models/model_name_db/db/service"
-	"github.com/attachai/core/utils"
+	"github.com/attachai/go-core/app/models/model_name_db/db/service"
+	"github.com/attachai/go-core/utils"
 
 	"log"
 	"time"

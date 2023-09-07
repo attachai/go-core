@@ -8,15 +8,15 @@ import (
 	"net/http/httptest"
 	"os"
 
-	"github.com/attachai/core/app/models/model_name_db/db/service"
-	structService "github.com/attachai/core/app/structs"
+	"github.com/attachai/go-core/app/models/model_name_db/db/service"
+	structService "github.com/attachai/go-core/app/structs"
 
 	"fmt"
 
-	"github.com/attachai/core/app/models/model_name_db/structs"
-	"github.com/attachai/core/packages/logging"
-	"github.com/attachai/core/packages/setting"
-	"github.com/attachai/core/utils"
+	"github.com/attachai/go-core/app/models/model_name_db/structs"
+	"github.com/attachai/go-core/packages/logging"
+	"github.com/attachai/go-core/packages/setting"
+	"github.com/attachai/go-core/utils"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
